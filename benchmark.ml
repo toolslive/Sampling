@@ -8,9 +8,6 @@ let modules = ["S0", (module S0: S);
                "S2", (module S2: S);
               ];;
 
-
-
-
 let micro_bench (which:string) ns k p  = 
   let module Sampler = (val List.assoc which modules : S) in
   let test_one n =
