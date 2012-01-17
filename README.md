@@ -20,7 +20,7 @@ Run:
 
 License:
 --------
-You can use this any way you want as long as your organization employes less 
+You can use this any way you want as long as your organization employs less 
 than 2 lawyers.
 
 have fun,
