@@ -4,9 +4,9 @@ Sampling
 Explore different methods of generating a small random subset of
 a population.
 
-S0: first blood
-S1: using bitsets
-S2: sparse sets
+ + S0: first blood
+ + S1: using bitsets
+ + S2: sparse sets
 
 Compile:
 --------
