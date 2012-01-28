@@ -1,8 +1,8 @@
-(* open S *)
+open S
 (* after a suggestion of Fabrice Le Fessant on our blog *)
 open R
 
-module SFabrice = struct 
+module SFabrice = (struct 
   type t = { pop: int array ; 
              smp: int array;
              mutable counter: int
@@ -40,4 +40,4 @@ module SFabrice = struct
     loop 0;
     sample.counter <- p
     
-end 
+end : S)
