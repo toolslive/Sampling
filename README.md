@@ -7,6 +7,7 @@ a population.
  + S0: first blood
  + S1: using bitsets
  + S2: sparse sets
+ + SFabrice: josephus sampling
 
 Compile:
 --------
