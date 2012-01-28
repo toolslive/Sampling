@@ -2,10 +2,11 @@ open S
 open S0
 open S1
 open S2
-
+open Sfabrice
 let modules = ["S0", (module S0: S);
                "S1", (module S1: S);
                "S2", (module S2: S);
+               "SFabrice", (module SFabrice: S);
               ];;
 
 let micro_bench (which:string) ns k p  = 
